@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "title": "Brutal Labs — Suplementación Sin Rodeos",
+    "description": "Suplementos premium testeados en laboratorio para quien entrena pesado y no acepta excusas. Whey, creatina, pre-entreno y más."
+  },
+  "nav": {
+    "products": "Productos",
+    "benefits": "Diferenciales",
+    "reviews": "Resultados",
+    "faq": "Preguntas",
+    "cta": "Comprar Ahora"
+  },
+  "hero": {
+    "badge": "STOCK LIMITADO DE ESTE LOTE",
+    "headlinePre": "TU ENTRENO YA ES BRUTAL.",
+    "headlineHighlight": "TU SUPLEMENTACIÓN TAMBIÉN DEBERÍA SERLO.",
+    "subheadline": "Fórmulas testeadas en laboratorio, sin rodeos de etiqueta y sin promesas vacías. Hecho para quien entrena de verdad.",
+    "ctaPrimary": "Comprar por WhatsApp",
+    "ctaSecondary": "Ver Productos",
+    "trustBadges": ["TESTEADO EN LABORATORIO", "ENVÍOS INTERNACIONALES", "FÓRMULA SIN RODEOS"]
+  },
+  "benefits": {
+    "eyebrow": "Diferenciales",
+    "title": "POR QUÉ BRUTAL ES DIFERENTE",
+    "subtitle": "No vendemos etiqueta bonita. Vendemos fórmula que funciona — y lo demostramos.",
+    "items": [
+      {
+        "title": "Testeado en Laboratorio",
+        "description": "Cada lote pasa por análisis independiente de pureza y dosis. Sin \"proprietary blend\" que esconda cantidades."
+      },
+      {
+        "title": "Absorción Rápida",
+        "description": "Fórmulas optimizadas para que el cuerpo aproveche lo que realmente importa — sin relleno inútil."
+      },
+      {
+        "title": "Transparencia Total",
+        "description": "Etiqueta con dosis exacta de cada activo. Si no tiene cantidad, no lo vendemos."
+      },
+      {
+        "title": "Comunidad de Atletas",
+        "description": "Más de 12 mil atletas y practicantes entrenan con Brutal. El resultado es nuestro marketing."
+      }
+    ]
+  },
+  "products": {
+    "eyebrow": "Línea Brutal",
+    "title": "ELIGE TU ARMA",
+    "subtitle": "Toda la línea con fórmula abierta y envío rápido. Haz clic y cierra directo por WhatsApp.",
+    "priceLabel": "desde",
+    "cta": "Comprar por WhatsApp",
+    "items": [
+      {
+        "name": "Whey Protein Aislado",
+        "flavor": "Chocolate Brutal · 900g",
+        "description": "27g de proteína por dosis, sin rodeos. Absorción rápida para maximizar la recuperación.",
+        "price": "US$ 38",
+        "badge": "MÁS VENDIDO"
+      },
+      {
+        "name": "Creatina Monohidratada",
+        "flavor": "Sin sabor · 300g",
+        "description": "Creatina pura, sin mezclas. Lo básico que funciona, en la dosis que realmente importa.",
+        "price": "US$ 20",
+        "badge": "ESENCIAL"
+      },
+      {
+        "name": "Pre-Entreno Warfare",
+        "flavor": "Mandarina Explosiva · 300g",
+        "description": "Energía, foco y bombeo sin crash. No es café flojo disfrazado de pre-entreno.",
+        "price": "US$ 30",
+        "badge": "NUEVO"
+      },
+      {
+        "name": "BCAA 2:1:1",
+        "flavor": "Watermelon Rage · 300g",
+        "description": "Aminoácidos esenciales en la proporción correcta, para entrenar más y recuperar más rápido.",
+        "price": "US$ 24",
+        "badge": null
+      },
+      {
+        "name": "Hipercalórico Titan Mass",
+        "flavor": "Cookies & Cream · 3kg",
+        "description": "Calorías de calidad para quien quiere ganar masa de verdad, sin solo hincharse de agua.",
+        "price": "US$ 44",
+        "badge": "ÚLTIMAS UNIDADES"
+      },
+      {
+        "name": "Multivitamínico Alpha Shield",
+        "flavor": "60 cápsulas",
+        "description": "Cobertura completa de vitaminas y minerales para quien exige más de su propio cuerpo.",
+        "price": "US$ 16",
+        "badge": null
+      }
+    ]
+  },
+  "reviews": {
+    "eyebrow": "Resultados",
+    "title": "QUIEN ENTRENA PESADO, CONFÍA EN BRUTAL",
+    "subtitle": "Testimonios reales de quienes usan la línea Brutal en su día a día.",
+    "cards": [
+      {
+        "metric": "+8kg",
+        "label": "de masa magra en 5 meses",
+        "text": "Cambié de whey tres veces hasta encontrar uno que realmente cumplía lo que prometía. Brutal fue el único que coincidió con mis análisis de composición corporal.",
+        "name": "R. Kaique",
+        "role": "Powerlifter amateur"
+      },
+      {
+        "metric": "-12%",
+        "label": "de grasa corporal",
+        "text": "El pre-entreno Warfare se volvió ritual antes de cualquier entreno pesado. Nunca más entrené sin foco.",
+        "name": "B. Millene",
+        "role": "Entrenadora personal"
+      },
+      {
+        "metric": "18 meses",
+        "label": "usando la línea completa",
+        "text": "La etiqueta transparente fue lo que me convenció. Hoy solo recomiendo Brutal a mis alumnos.",
+        "name": "D. Otávio",
+        "role": "Coach de hipertrofia"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Preguntas Frecuentes",
+    "title": "ANTES DE CERRAR TU PEDIDO",
+    "items": [
+      {
+        "question": "¿Cuál es el plazo de entrega?",
+        "answer": "Realizamos envíos internacionales. El tiempo de entrega varía según el destino, entre 5 y 12 días hábiles tras la confirmación del pago."
+      },
+      {
+        "question": "¿Los productos tienen registro y pruebas de calidad?",
+        "answer": "Sí. Toda la línea Brutal Labs está registrada ante los organismos correspondientes y cada lote pasa por análisis independiente de pureza y dosis."
+      },
+      {
+        "question": "¿Cómo hago para comprar?",
+        "answer": "Haz clic en cualquier botón \"Comprar por WhatsApp\" — serás dirigido directo a nuestra atención, que cierra el pedido y envía el enlace de pago."
+      },
+      {
+        "question": "¿Hay descuento por compra recurrente?",
+        "answer": "Sí. Quien se suscribe al club Brutal recibe 15% de descuento fijo en todos los pedidos y prioridad en lanzamientos."
+      },
+      {
+        "question": "¿Puedo cambiar o devolver un producto?",
+        "answer": "Sí, dentro de los 7 días posteriores a la recepción, siempre que el producto esté sellado, conforme a la normativa de protección al consumidor."
+      }
+    ]
+  },
+  "offer": {
+    "title": "EL STOCK DE ESTE LOTE",
+    "highlight": "SE ESTÁ ACABANDO.",
+    "note": "Reposición solo en el próximo lote, sin fecha cerrada de llegada.",
+    "cta": "Comprar por WhatsApp Ahora",
+    "whatsappMessage": "¡Hola! Quiero hacer un pedido de la línea Brutal Labs."
+  },
+  "footer": {
+    "tagline": "Sin rodeos. Solo resultado.",
+    "columns": {
+      "explore": "Explorar",
+      "contact": "Contacto",
+      "legal": "Legal"
+    },
+    "links": {
+      "products": "Productos",
+      "benefits": "Diferenciales",
+      "reviews": "Resultados",
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Uso"
+    },
+    "rights": "Todos los derechos reservados.",
+    "madeBy": "Hecho por"
+  }
+}

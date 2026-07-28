@@ -1,0 +1,33 @@
+{
+  "name": "brutal-labs",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^16.2.12",
+    "next-intl": "^4.13.4",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "framer-motion": "^12.43.0",
+    "lucide-react": "^0.451.0",
+    "swiper": "^14.0.6",
+    "aos": "^2.3.4",
+    "gsap": "^3.12.5",
+    "lenis": "^1.1.16"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/aos": "^3.0.7",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.5.17",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.5.2"
+  }
+}
