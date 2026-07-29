@@ -21,26 +21,5 @@ portfólio produzida pela ExitoCoach, bilíngue em Português e Espanhol.
 Next.js 16 (App Router) · TypeScript · Tailwind CSS · next-intl (PT/ES) ·
 Framer Motion · Swiper · AOS · GSAP · Lenis · Lucide Icons
 
-## Checkout via WhatsApp
-
-Não há carrinho/checkout real — cada botão de compra abre o WhatsApp
-(`src/lib/whatsapp.ts`) com uma mensagem pré-preenchida citando o produto
-escolhido. Para usar em produção, troque o número em `WHATSAPP_NUMBER`.
-
-## Rodando localmente
-
-```bash
-npm install
-npm run dev
-```
-
-Acesse `http://localhost:3000/pt` ou `http://localhost:3000/es`.
-
-## Deploy
-
-Projeto pronto para deploy direto na Vercel (detecta Next.js
-automaticamente, sem configuração adicional).
-
----
 
 Feito por [ExitoCoach](https://exitocoach.com)
