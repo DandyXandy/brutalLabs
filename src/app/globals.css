@@ -50,3 +50,17 @@ body {
     transparent 18px
   );
 }
+
+@keyframes shimmer {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
+.text-shimmer {
+  background-size: 220% auto;
+  animation: shimmer 3.5s linear infinite;
+}

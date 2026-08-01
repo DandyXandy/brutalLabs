@@ -19,7 +19,7 @@ export default function Offer() {
           transition={{ duration: 0.6 }}
           className="font-display text-3xl uppercase leading-tight text-bone sm:text-4xl md:text-5xl"
         >
-          {t('title')} <span className="text-blood-gradient">{t('highlight')}</span>
+          {t('title')} <span className="text-blood-gradient text-shimmer">{t('highlight')}</span>
         </motion.h2>
         <p className="mx-auto mt-6 max-w-lg text-sm uppercase tracking-widest2 text-bone/50">
           {t('note')}

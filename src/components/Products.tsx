@@ -2,6 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import { buildWhatsappLink } from '@/lib/whatsapp';
 
 type Product = {
@@ -12,14 +13,7 @@ type Product = {
   badge: string | null;
 };
 
-const images = [
-  'https://images.unsplash.com/photo-1579722820308-d74e571900a9?q=80&w=1000&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1000&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1594381898411-846e7d193883?q=80&w=1000&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=1000&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=1000&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1550345332-09e3ac987658?q=80&w=1000&auto=format&fit=crop',
-];
+const PRODUCT_CROPS = 6;
 
 export default function Products() {
   const t = useTranslations('products');
@@ -52,9 +46,19 @@ export default function Products() {
               >
                 <div className="relative h-56 overflow-hidden">
                   <div
-                    className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
-                    style={{ backgroundImage: `url('${images[i % images.length]}')` }}
-                  />
+                    className="absolute inset-y-0 transition-transform duration-500 group-hover:scale-110"
+                    style={{
+                      width: `${PRODUCT_CROPS * 100}%`,
+                      left: `-${(i % PRODUCT_CROPS) * 100}%`,
+                    }}
+                  >
+                    <Image
+                      src="/hero/produtos-abertos.jpg"
+                      alt={product.name}
+                      fill
+                      className="object-cover object-center"
+                    />
+                  </div>
                   <div className="absolute inset-0 bg-gradient-to-t from-blackout-900 via-transparent to-transparent" />
                   {product.badge && (
                     <span className="absolute left-4 top-4 bg-blood-gradient px-3 py-1 text-[11px] font-bold uppercase tracking-wide text-bone">

@@ -5,7 +5,6 @@ import { useTranslations } from 'next-intl';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, MessageCircle } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
-import LocaleSwitcher from './LocaleSwitcher';
 import { buildWhatsappLink } from '@/lib/whatsapp';
 
 export default function Navbar() {
@@ -53,7 +52,6 @@ export default function Navbar() {
         </div>
 
         <div className="hidden items-center gap-4 lg:flex">
-          <LocaleSwitcher />
           <a
             href={whatsappHref}
             target="_blank"
@@ -89,8 +87,7 @@ export default function Navbar() {
                   {link.label}
                 </a>
               ))}
-              <div className="flex items-center justify-between pt-2">
-                <LocaleSwitcher />
+              <div className="flex items-center justify-end pt-2">
                 <a
                   href={whatsappHref}
                   target="_blank"
